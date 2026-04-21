@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button.jsx";
 import Student from './Student/Student.jsx';
+import UserGreeting from './UserGreeting/UserGreeting.jsx';
 import Card from "./Card.jsx";
 import Food from "./Food.jsx";
 import Footer from "./Footer.jsx";
@@ -14,6 +15,7 @@ function App() {
       <Student name="Abhigyan" age={42} isStudent={false}/>
       <Student name="Debo" age={50} isStudent={false}/>
       <Student name="Yash" age={27} isStudent={true}/>
+      <UserGreeting isLoggedIn={false} username="BroCode" />
       <Footer/>
     </React.Fragment>
   );
